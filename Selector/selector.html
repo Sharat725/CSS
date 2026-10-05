@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        h1{
+            color: green;
+        }
+        
+        .loc{
+            color: blue;
+        }
+        .tloc{
+            color: blueviolet;
+        }
+        .topic{
+            color: brown;
+        }
+        label,legend{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>About</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt sint eius consequuntur officiis! Cumque tenetur fugit rerum accusantium pariatur cupiditate reprehenderit obcaecati enim quia nesciunt, voluptatibus non laboriosam praesentium?
+    Cupiditate assumenda omnis corrupti non. Saepe ex assumenda molestias deserunt magni sed optio, necessitatibus quod ad nihil beatae rerum commodi quam fugit, asperiores quisquam illum veniam est placeat natus? Maxime.
+    Laboriosam sint molestias nisi debitis dolorem sit vitae rem eos, quia maxime id libero harum doloremque ex. Totam, quia repellat cupiditate, magnam placeat praesentium consequuntur animi sint nulla commodi nihil.
+    Suscipit esse est similique nulla! Atque deserunt perspiciatis amet temporibus non laboriosam quas ullam! Vel incidunt optio nesciunt omnis quasi excepturi. Laudantium cupiditate suscipit id numquam consequatur ullam nisi. Modi.</p>
+    <h1>Our Location</h1>
+    <ul>
+        <li>USA
+            <ul class="loc">
+                <li>New York</li>
+                <li>Columbus</li>
+                <li>Austin</li>
+                <li>Philly</li>
+            </ul>
+        </li>
+        <li>World
+            <ul class="loc">
+                <li>Ottawa</li>
+                <li>Sydney</li>
+            </ul>
+        </li>
+    </ul>
+    <h1>Upcoming Classes</h1>
+    <table border="2" cellspacing="2" cellpadding="5">
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td class="tloc">New York</td>
+            <td class="topic">JavaScript & jQuery</td>
+        </tr>
+        <tr>
+            <td class="tloc">San Francisco</td>
+            <td class="topic">HTML & CSS</td>
+        </tr>
+    </table>
+    <h1>Sign Up!</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name"> <br>
+        <label for="mail">Email:</label>
+        <input type="text" id="mail"><br>
+        <label for="loc">Location:</label>
+        <select name="" id="">
+            <option value="">San Francisco</option>
+            <option value="">New York</option>
+        </select>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="">Female</label>
+            <input type="radio">
+            <label for="">Male</label>
+            <input type="radio">
+        </fieldset>
+        <label for="">Experience:</label><br>
+        <textarea name="" id=""></textarea><br>
+        <button>Sign Up</button>
+    </form>
+</body>
+</html>

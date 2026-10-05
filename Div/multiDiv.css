@@ -1,0 +1,39 @@
+#p1{
+    border: 1px solid red;
+    height: 150px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#c1,#c2,#c3{
+    border: 1px solid red;
+    height: 80%;
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tax1,.tax2{
+    border: 1px solid red;
+    height: 80%;
+}
+.tax1{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tax2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 60%;
+    width: 90%;
+}

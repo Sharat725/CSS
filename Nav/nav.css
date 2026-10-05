@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.763), white);
+    border: none;
+}
+.child1,.child2{
+    border: 1px solid red;
+    height: 100%;
+    border: none;
+    
+}
+.child1{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child2{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    height: 50%;
+    mix-blend-mode: multiply;
+
+}
+
+h1:hover{
+    color: white;
+}
